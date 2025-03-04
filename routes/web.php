@@ -22,10 +22,19 @@ Route::get('/page4', function(){
     return view('page4');
 });
 
+<<<<<<< HEAD
+Route::get('/page8', function(){
+    return view('page8');
+=======
 Route::get('/page5', function(){
     return view('page5');
 });
 
 Route::get('/page6', function(){
     return view('page6');
+>>>>>>> 687a1e6c49c292206585988541b5d625377b985d
+});
+
+Route::get('/page9', function(){
+    return view('page9');
 });
