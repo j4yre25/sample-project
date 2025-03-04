@@ -39,3 +39,7 @@ Route::get('/page6', function(){
 Route::get('/page9', function(){
     return view('page9');
 });
+
+Route::get('/page12', function(){
+    return view('page12');
+});
