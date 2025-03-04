@@ -25,3 +25,7 @@ Route::get('/page4', function(){
 Route::get('/page5', function(){
     return view('page5');
 });
+
+Route::get('/page6', function(){
+    return view('page6');
+});
