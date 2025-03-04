@@ -9,3 +9,8 @@ Route::get('/', function () {
 Route::get('/page', function(){
     return view('page');
 });
+
+
+Route::get('/page2', function(){
+    return view('page2');
+});
